@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 3,
+      "name": "Fehér Gyula",
+      "email": "fehergyula@Sgmail.com",
+      "phone": "36201547834"
+    },
+    {
+      "id": 4,
+      "name": "Fekete Szilvia",
+      "email": "feketeszilvia@Sgmail.com",
+      "phone": "36201112734"
+    },
+    {
+      "id": 6,
+      "name": "Fülöp Katalin",
+      "email": "katafulop@gmail.com",
+      "phone": "3630457228"
+    },
+    {
+      "name": "Fülöp Péter",
+      "email": "mrpeterfulop@gmail.com",
+      "phone": "306561900",
+      "id": 7
+    }
+  ]
+}

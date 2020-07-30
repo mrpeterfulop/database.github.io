@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/MyFirstDatabase/js/main.js"></script>
+    <script src="https://kit.fontawesome.com/f3947ce071.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <title>Test Json server</title>
+</head>
+<body>
+    <!-- <h1>Admin felület</h1> -->
+<div class="container">
+    <div class="row">
+        <div class="col-4"></div>
+            <div class="col-4"><h2 id="headerText">Admin felület</h2></div>
+        <div class="col-4"></div>
+    </div>
+    <div class="row">
+        <div class="col-1"></div>
+            <div class="col-2">
+                <button id ="getDataBtn" class="btn btn-block btn-primary"><i class="fas fa-sync-alt"></i></button>
+            </div>
+        <div class="col-8"></div>
+    </div>
+    <div class="row">
+        <div class="col-1"></div>
+            <div class="col-10">
+
+                <table id="userTable" class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Phone</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        <div class="col-1"></div>
+    </div>
+</div>
+
+
+</body>
+
+<style>
+    #getDataBtn{
+        margin-bottom: 20px;
+    }
+    .container{
+        margin-top: 20px;
+    }
+
+    #headerText{
+        text-align: center;
+        text-transform:uppercase;
+    }
+
+   #inputIcon {
+    border-style: none;
+    background-color: transparent;
+    color: none;
+    pointer-events: none;
+    font-weight: bolder;
+    color: green;
+    }
+
+</style>
+
+</html>
